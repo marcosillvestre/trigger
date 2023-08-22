@@ -10,11 +10,9 @@ class App {
         this.app = express()
         this.app.use(cors())
 
-        this.middleware()
         this.routes()
     }
     middleware() {
-        this.app.use(express.json())
     }
     routes() {
         this.app.use(routes)
