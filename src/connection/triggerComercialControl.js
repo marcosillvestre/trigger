@@ -3,7 +3,7 @@ import axios from 'axios';
 import { CronJob } from "cron";
 
 const job = new CronJob(
-    '0 */60 * * * *',
+    '0 */5 * * * *',
 
     function () {
         searchSync()
