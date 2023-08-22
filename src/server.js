@@ -12,8 +12,6 @@ class App {
 
         this.routes()
     }
-    middleware() {
-    }
     routes() {
         this.app.use(routes)
     }
